@@ -733,3 +733,1398 @@ Processing by StaticPagesController#home as HTML
 Completed 200 OK in 1954ms (Views: 1952.7ms | Allocations: 119730)
 
 
+Started GET "/home" for ::1 at 2021-09-09 22:51:15 +0700
+  [1m[35m (946.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 34.6ms | Allocations: 516)
+[Webpacker] Compiling...
+Started GET "/users" for 127.0.0.1 at 2021-09-09 22:51:46 +0700
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (821.0ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/users/index.html.erb:19
+  Rendered users/index.html.erb within layouts/application (Duration: 4953.0ms | Allocations: 7924)
+[Webpacker] Compiling...
+Started GET "/users" for 127.0.0.1 at 2021-09-09 22:51:56 +0700
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (78.7ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/users/index.html.erb:19
+  Rendered users/index.html.erb within layouts/application (Duration: 512.3ms | Allocations: 1429)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/hiep/Desktop/sampleapp/public/packs
+[Webpacker] Hash: e2f281de3ea1fdc4fa5a
+Version: webpack 4.46.0
+Time: 17373ms
+Built at: 09/09/2021 10:52:35 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-be412d64645010827f4e.js    125 KiB  application  [emitted] [immutable]  application
+js/application-be412d64645010827f4e.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-be412d64645010827f4e.js js/application-be412d64645010827f4e.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered shared/_header.html.erb (Duration: 15.6ms | Allocations: 247)
+  Rendered layout layouts/application.html.erb (Duration: 38774.4ms | Allocations: 13102)
+Completed 200 OK in 38778ms (Views: 38696.9ms | ActiveRecord: 79.7ms | Allocations: 13562)
+
+
+[Webpacker] Compiled all packs in /home/hiep/Desktop/sampleapp/public/packs
+[Webpacker] Hash: e2f281de3ea1fdc4fa5a
+Version: webpack 4.46.0
+Time: 33878ms
+Built at: 09/09/2021 10:52:35 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-be412d64645010827f4e.js    125 KiB  application  [emitted] [immutable]  application
+js/application-be412d64645010827f4e.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-be412d64645010827f4e.js js/application-be412d64645010827f4e.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 84)
+  Rendered layout layouts/application.html.erb (Duration: 71136.3ms | Allocations: 175451)
+Completed 200 OK in 71288ms (Views: 71230.1ms | ActiveRecord: 0.0ms | Allocations: 179505)
+
+
+[Webpacker] Compiled all packs in /home/hiep/Desktop/sampleapp/public/packs
+[Webpacker] Hash: e2f281de3ea1fdc4fa5a
+Version: webpack 4.46.0
+Time: 17924ms
+Built at: 09/09/2021 10:52:35 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-be412d64645010827f4e.js    125 KiB  application  [emitted] [immutable]  application
+js/application-be412d64645010827f4e.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-be412d64645010827f4e.js js/application-be412d64645010827f4e.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered shared/_header.html.erb (Duration: 0.4ms | Allocations: 81)
+  Rendered layout layouts/application.html.erb (Duration: 49292.7ms | Allocations: 47344)
+Completed 200 OK in 49412ms (Views: 44813.1ms | ActiveRecord: 4511.8ms | Allocations: 48859)
+
+
+Started GET "/home" for 127.0.0.1 at 2021-09-09 22:53:15 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 56)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 81)
+  Rendered layout layouts/application.html.erb (Duration: 31.2ms | Allocations: 10758)
+Completed 200 OK in 34ms (Views: 32.7ms | ActiveRecord: 0.0ms | Allocations: 11237)
+
+
+Started GET "/home" for 127.0.0.1 at 2021-09-09 23:04:32 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 4.1ms | Allocations: 338)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 11.4ms | Allocations: 1805)
+  Rendered layout layouts/application.html.erb (Duration: 66.0ms | Allocations: 13192)
+Completed 500 Internal Server Error in 144ms (Allocations: 17135)
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 2, expected 1)):
+    3:         <%= link_to "sample app", "#", id: "logo" %>
+    4:         <nav>
+    5:             <ul class="nav navbar-nav navbar-right">
+    6:                 <li><%= link_to t".home", "#" %></li>
+    7:                 <li><%= link_to t".help", "#" %></li>
+    8:                 <li><%= link_to t".login", "#" %></li>
+    9:                 <li>
+  
+app/views/shared/_header.html.erb:6
+app/views/layouts/application.html.erb:17
+Started GET "/home" for 127.0.0.1 at 2021-09-09 23:05:03 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 8.9ms | Allocations: 272)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 15.4ms | Allocations: 1122)
+  Rendered layout layouts/application.html.erb (Duration: 88.6ms | Allocations: 12354)
+Completed 200 OK in 99ms (Views: 97.6ms | Allocations: 13580)
+
+
+Started GET "/static_pages/home?locale=vi" for 127.0.0.1 at 2021-09-09 23:05:06 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+Completed 500 Internal Server Error in 9ms (Allocations: 606)
+
+
+  
+I18n::InvalidLocale ("vi" is not a valid locale):
+  
+app/controllers/application_controller.rb:6:in `set_locale'
+Started GET "/home" for 127.0.0.1 at 2021-09-09 23:06:35 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 132)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 0.8ms | Allocations: 371)
+  Rendered layout layouts/application.html.erb (Duration: 35.0ms | Allocations: 11012)
+Completed 200 OK in 39ms (Views: 38.4ms | Allocations: 11468)
+
+
+Started GET "/home" for 127.0.0.1 at 2021-09-09 23:06:38 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 132)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 1.3ms | Allocations: 373)
+  Rendered layout layouts/application.html.erb (Duration: 38.4ms | Allocations: 10998)
+Completed 200 OK in 50ms (Views: 48.5ms | Allocations: 11453)
+
+
+Started GET "/static_pages/home?locale=en" for 127.0.0.1 at 2021-09-09 23:06:40 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 132)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 1.4ms | Allocations: 374)
+  Rendered layout layouts/application.html.erb (Duration: 36.5ms | Allocations: 11581)
+Completed 200 OK in 39ms (Views: 37.7ms | Allocations: 12038)
+
+
+Started GET "/static_pages/home?locale=en" for 127.0.0.1 at 2021-09-09 23:06:42 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 132)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 0.8ms | Allocations: 373)
+  Rendered layout layouts/application.html.erb (Duration: 29.0ms | Allocations: 11006)
+Completed 200 OK in 31ms (Views: 29.7ms | Allocations: 11463)
+
+
+Started GET "/static_pages/home?locale=vi" for 127.0.0.1 at 2021-09-09 23:06:44 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+Completed 500 Internal Server Error in 2ms (Allocations: 598)
+
+
+  
+I18n::InvalidLocale ("vi" is not a valid locale):
+  
+app/controllers/application_controller.rb:6:in `set_locale'
+Started GET "/static_pages/home?locale=en" for 127.0.0.1 at 2021-09-09 23:06:49 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 132)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 1.1ms | Allocations: 371)
+  Rendered layout layouts/application.html.erb (Duration: 46.5ms | Allocations: 11594)
+Completed 200 OK in 49ms (Views: 47.8ms | Allocations: 12047)
+
+
+Started GET "/static_pages/home?locale=en" for 127.0.0.1 at 2021-09-09 23:06:52 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 132)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 3.2ms | Allocations: 371)
+  Rendered layout layouts/application.html.erb (Duration: 42.3ms | Allocations: 11008)
+Completed 200 OK in 45ms (Views: 43.8ms | Allocations: 11465)
+
+
+Started GET "/static_pages/home?locale=vi" for 127.0.0.1 at 2021-09-09 23:06:54 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+Completed 500 Internal Server Error in 4ms (Allocations: 598)
+
+
+  
+I18n::InvalidLocale ("vi" is not a valid locale):
+  
+app/controllers/application_controller.rb:6:in `set_locale'
+Started GET "/static_pages/home?locale=en" for 127.0.0.1 at 2021-09-09 23:07:42 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 132)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 1.9ms | Allocations: 371)
+  Rendered layout layouts/application.html.erb (Duration: 49.0ms | Allocations: 11601)
+Completed 200 OK in 52ms (Views: 51.4ms | Allocations: 12054)
+
+
+Started GET "/static_pages/home?locale=en" for 127.0.0.1 at 2021-09-09 23:08:03 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.6ms | Allocations: 148)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 4.3ms | Allocations: 839)
+  Rendered layout layouts/application.html.erb (Duration: 39.3ms | Allocations: 11545)
+Completed 200 OK in 66ms (Views: 49.0ms | Allocations: 13106)
+
+
+Started GET "/static_pages/home?locale=en" for 127.0.0.1 at 2021-09-09 23:10:46 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 148)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 1.6ms | Allocations: 837)
+  Rendered layout layouts/application.html.erb (Duration: 42.4ms | Allocations: 11543)
+Completed 200 OK in 58ms (Views: 47.7ms | Allocations: 13024)
+
+
+Started GET "/static_pages/home?locale=vi" for 127.0.0.1 at 2021-09-09 23:10:49 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+Completed 500 Internal Server Error in 1ms (Allocations: 603)
+
+
+  
+I18n::InvalidLocale ("vi" is not a valid locale):
+  
+app/controllers/application_controller.rb:6:in `set_locale'
+Started GET "/static_pages/home?locale=vi" for 127.0.0.1 at 2021-09-09 23:12:24 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+Completed 500 Internal Server Error in 7ms (Allocations: 654)
+
+
+  
+I18n::InvalidLocale ("vi" is not a valid locale):
+  
+app/controllers/application_controller.rb:6:in `set_locale'
+Started GET "/users" for 127.0.0.1 at 2021-09-09 23:12:30 +0700
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/users/index.html.erb:19
+  Rendered users/index.html.erb within layouts/application (Duration: 33.3ms | Allocations: 7133)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 1.1ms | Allocations: 848)
+  Rendered layout layouts/application.html.erb (Duration: 59.6ms | Allocations: 18559)
+Completed 200 OK in 74ms (Views: 65.4ms | ActiveRecord: 2.8ms | Allocations: 20083)
+
+
+Started GET "/users" for 127.0.0.1 at 2021-09-09 23:12:33 +0700
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/users/index.html.erb:19
+  Rendered users/index.html.erb within layouts/application (Duration: 16.6ms | Allocations: 1771)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 1.0ms | Allocations: 357)
+  Rendered layout layouts/application.html.erb (Duration: 52.3ms | Allocations: 13202)
+Completed 200 OK in 57ms (Views: 52.7ms | ActiveRecord: 0.8ms | Allocations: 13686)
+
+
+Started GET "/en/users" for 127.0.0.1 at 2021-09-09 23:12:36 +0700
+Processing by UsersController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/users/index.html.erb:19
+  Rendered users/index.html.erb within layouts/application (Duration: 10.8ms | Allocations: 1766)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 2.0ms | Allocations: 355)
+  Rendered layout layouts/application.html.erb (Duration: 55.0ms | Allocations: 13182)
+Completed 200 OK in 59ms (Views: 56.7ms | ActiveRecord: 1.1ms | Allocations: 13659)
+
+
+Started GET "/vi/users" for 127.0.0.1 at 2021-09-09 23:12:38 +0700
+Processing by UsersController#index as HTML
+  Parameters: {"locale"=>"vi"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 605)
+
+
+  
+I18n::InvalidLocale ("vi" is not a valid locale):
+  
+app/controllers/application_controller.rb:6:in `set_locale'
+Started GET "/en/users" for 127.0.0.1 at 2021-09-09 23:14:45 +0700
+Processing by UsersController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/users/index.html.erb:19
+  Rendered users/index.html.erb within layouts/application (Duration: 100.2ms | Allocations: 6432)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 4.9ms | Allocations: 849)
+  Rendered layout layouts/application.html.erb (Duration: 168.9ms | Allocations: 17839)
+Completed 200 OK in 185ms (Views: 104.8ms | ActiveRecord: 74.9ms | Allocations: 18980)
+
+
+Started GET "/home" for 127.0.0.1 at 2021-09-09 23:15:11 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 148)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 1.4ms | Allocations: 432)
+  Rendered layout layouts/application.html.erb (Duration: 26.0ms | Allocations: 11143)
+Completed 200 OK in 33ms (Views: 29.5ms | ActiveRecord: 0.0ms | Allocations: 11837)
+
+
+Started GET "/home" for 127.0.0.1 at 2021-09-09 23:15:12 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 132)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 1.8ms | Allocations: 367)
+  Rendered layout layouts/application.html.erb (Duration: 36.7ms | Allocations: 10997)
+Completed 200 OK in 43ms (Views: 37.4ms | ActiveRecord: 0.0ms | Allocations: 11460)
+
+
+Started GET "/home" for 127.0.0.1 at 2021-09-09 23:19:14 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 148)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 6.4ms | Allocations: 880)
+  Rendered layout layouts/application.html.erb (Duration: 52.2ms | Allocations: 11579)
+Completed 200 OK in 64ms (Views: 58.2ms | ActiveRecord: 0.0ms | Allocations: 12281)
+
+
+Started GET "/vi/static_pages/home" for 127.0.0.1 at 2021-09-09 23:19:16 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 609)
+
+
+  
+I18n::InvalidLocale ("vi" is not a valid locale):
+  
+app/controllers/application_controller.rb:7:in `set_locale'
+Started GET "/vi/static_pages/home" for 127.0.0.1 at 2021-09-09 23:23:59 +0700
+  [1m[35m (9.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 7.7ms | Allocations: 1450)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 5.8ms | Allocations: 1351)
+  Rendered layout layouts/application.html.erb (Duration: 308.7ms | Allocations: 25484)
+Completed 200 OK in 325ms (Views: 312.6ms | ActiveRecord: 0.0ms | Allocations: 28730)
+
+
+Started GET "/vi/static_pages/home" for 127.0.0.1 at 2021-09-09 23:24:05 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 132)
+Started GET "/vi/static_pages/home" for 127.0.0.1 at 2021-09-09 23:24:06 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 5.7ms | Allocations: 132)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 0.9ms | Allocations: 498)
+  Rendered layout layouts/application.html.erb (Duration: 57.4ms | Allocations: 23271)
+Completed 200 OK in 59ms (Views: 58.4ms | ActiveRecord: 0.0ms | Allocations: 23738)
+
+
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 1.0ms | Allocations: 496)
+  Rendered layout layouts/application.html.erb (Duration: 47.1ms | Allocations: 20785)
+Completed 200 OK in 50ms (Views: 48.3ms | ActiveRecord: 0.0ms | Allocations: 21244)
+
+
+Started GET "/vi/static_pages/home" for 127.0.0.1 at 2021-09-09 23:24:06 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 3.1ms | Allocations: 132)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 1.0ms | Allocations: 496)
+  Rendered layout layouts/application.html.erb (Duration: 47.2ms | Allocations: 11121)
+Completed 200 OK in 52ms (Views: 50.1ms | ActiveRecord: 0.0ms | Allocations: 11580)
+
+
+Started GET "/vi/static_pages/home" for 127.0.0.1 at 2021-09-09 23:24:07 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.9ms | Allocations: 132)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 1.2ms | Allocations: 498)
+  Rendered layout layouts/application.html.erb (Duration: 48.4ms | Allocations: 11126)
+Completed 200 OK in 63ms (Views: 57.5ms | ActiveRecord: 0.0ms | Allocations: 11591)
+
+
+Started GET "/en/static_pages/home" for 127.0.0.1 at 2021-09-09 23:24:08 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 136)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 0.8ms | Allocations: 369)
+  Rendered layout layouts/application.html.erb (Duration: 46.2ms | Allocations: 11668)
+Completed 200 OK in 53ms (Views: 51.5ms | ActiveRecord: 0.0ms | Allocations: 12624)
+
+
+Started GET "/vi/static_pages/home" for 127.0.0.1 at 2021-09-09 23:24:11 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 132)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 1.1ms | Allocations: 496)
+  Rendered layout layouts/application.html.erb (Duration: 25.2ms | Allocations: 11121)
+Completed 200 OK in 29ms (Views: 26.0ms | ActiveRecord: 0.0ms | Allocations: 11580)
+
+
+Started GET "/vi/static_pages/home" for 127.0.0.1 at 2021-09-09 23:24:13 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 132)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 6.7ms | Allocations: 496)
+  Rendered layout layouts/application.html.erb (Duration: 37.3ms | Allocations: 11121)
+Completed 200 OK in 43ms (Views: 42.0ms | ActiveRecord: 0.0ms | Allocations: 11580)
+
+
+Started GET "/vi/static_pages/home" for 127.0.0.1 at 2021-09-09 23:24:14 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 132)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 1.9ms | Allocations: 498)
+  Rendered layout layouts/application.html.erb (Duration: 23.7ms | Allocations: 11125)
+Completed 200 OK in 26ms (Views: 24.9ms | ActiveRecord: 0.0ms | Allocations: 11589)
+
+
+Started GET "/vi/static_pages/home" for 127.0.0.1 at 2021-09-09 23:24:44 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 132)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 4.9ms | Allocations: 496)
+  Rendered layout layouts/application.html.erb (Duration: 41.2ms | Allocations: 11121)
+Completed 200 OK in 43ms (Views: 42.0ms | ActiveRecord: 0.0ms | Allocations: 11577)
+
+
+Started GET "/vi/static_pages/home" for 127.0.0.1 at 2021-09-09 23:24:48 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 132)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 2.0ms | Allocations: 496)
+  Rendered layout layouts/application.html.erb (Duration: 39.3ms | Allocations: 11121)
+Completed 200 OK in 50ms (Views: 43.9ms | ActiveRecord: 0.0ms | Allocations: 11580)
+
+
+Started GET "/en/static_pages/home" for 127.0.0.1 at 2021-09-09 23:24:49 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 132)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 0.7ms | Allocations: 367)
+  Rendered layout layouts/application.html.erb (Duration: 27.3ms | Allocations: 11570)
+Completed 200 OK in 29ms (Views: 28.1ms | ActiveRecord: 0.0ms | Allocations: 12029)
+
+
+Started GET "/vi/static_pages/home" for 127.0.0.1 at 2021-09-09 23:24:53 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 132)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 3.5ms | Allocations: 496)
+  Rendered layout layouts/application.html.erb (Duration: 49.1ms | Allocations: 11201)
+Completed 200 OK in 53ms (Views: 51.2ms | ActiveRecord: 0.0ms | Allocations: 11661)
+
+
+Started GET "/vi/static_pages/home" for 127.0.0.1 at 2021-09-09 23:25:08 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1045)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 10.0ms | Allocations: 1009)
+  Rendered layout layouts/application.html.erb (Duration: 69.2ms | Allocations: 12675)
+Completed 200 OK in 80ms (Views: 77.5ms | ActiveRecord: 0.0ms | Allocations: 13375)
+
+
+Started GET "/en/static_pages/home" for 127.0.0.1 at 2021-09-09 23:25:11 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 132)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 1.2ms | Allocations: 368)
+  Rendered layout layouts/application.html.erb (Duration: 45.9ms | Allocations: 11574)
+Completed 200 OK in 49ms (Views: 47.9ms | ActiveRecord: 0.0ms | Allocations: 12033)
+
+
+Started GET "/vi/static_pages/home" for 127.0.0.1 at 2021-09-09 23:25:13 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 132)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 0.8ms | Allocations: 496)
+  Rendered layout layouts/application.html.erb (Duration: 26.9ms | Allocations: 11121)
+Completed 200 OK in 38ms (Views: 36.2ms | ActiveRecord: 0.0ms | Allocations: 11580)
+
+
+Started GET "/vi/static_pages/home" for 127.0.0.1 at 2021-09-09 23:26:14 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.3ms | Allocations: 277)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 2.8ms | Allocations: 720)
+  Rendered layout layouts/application.html.erb (Duration: 52.6ms | Allocations: 11941)
+Completed 200 OK in 65ms (Views: 62.5ms | ActiveRecord: 0.0ms | Allocations: 13168)
+
+
+Started GET "/vi/static_pages/home" for 127.0.0.1 at 2021-09-09 23:26:28 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 132)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 0.9ms | Allocations: 498)
+  Rendered layout layouts/application.html.erb (Duration: 41.8ms | Allocations: 11123)
+Completed 200 OK in 47ms (Views: 43.7ms | ActiveRecord: 0.0ms | Allocations: 11583)
+
+
+Started GET "/en/static_pages/home" for 127.0.0.1 at 2021-09-09 23:26:29 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 132)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 0.9ms | Allocations: 413)
+  Rendered layout layouts/application.html.erb (Duration: 52.7ms | Allocations: 11708)
+Completed 200 OK in 63ms (Views: 60.7ms | ActiveRecord: 0.0ms | Allocations: 12658)
+
+
+Started GET "/en/static_pages/home" for 127.0.0.1 at 2021-09-09 23:27:26 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 6.7ms | Allocations: 1125)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 6.6ms | Allocations: 926)
+  Rendered layout layouts/application.html.erb (Duration: 54.2ms | Allocations: 12672)
+Completed 200 OK in 72ms (Views: 68.8ms | ActiveRecord: 0.0ms | Allocations: 13372)
+
+
+Started GET "/vi/static_pages/home" for 127.0.0.1 at 2021-09-09 23:27:31 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 132)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 0.7ms | Allocations: 413)
+  Rendered layout layouts/application.html.erb (Duration: 46.1ms | Allocations: 11626)
+Completed 200 OK in 52ms (Views: 48.0ms | ActiveRecord: 0.0ms | Allocations: 12085)
+
+
+Started GET "/vi/static_pages/home" for 127.0.0.1 at 2021-09-09 23:27:55 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 8.1ms | Allocations: 959)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 3.3ms | Allocations: 925)
+  Rendered layout layouts/application.html.erb (Duration: 57.5ms | Allocations: 12447)
+Completed 200 OK in 60ms (Views: 59.1ms | ActiveRecord: 0.0ms | Allocations: 13146)
+
+
+Started GET "/vi/static_pages/home" for 127.0.0.1 at 2021-09-09 23:27:57 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 132)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 1.3ms | Allocations: 413)
+  Rendered layout layouts/application.html.erb (Duration: 43.5ms | Allocations: 11038)
+Completed 200 OK in 46ms (Views: 45.3ms | ActiveRecord: 0.0ms | Allocations: 11497)
+
+
+Started GET "/vi/static_pages/home" for 127.0.0.1 at 2021-09-09 23:28:14 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 3.8ms | Allocations: 277)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 1.7ms | Allocations: 585)
+  Rendered layout layouts/application.html.erb (Duration: 50.1ms | Allocations: 11815)
+Completed 200 OK in 54ms (Views: 52.3ms | ActiveRecord: 0.0ms | Allocations: 13041)
+
+
+Started GET "/vi/static_pages/home" for 127.0.0.1 at 2021-09-10 00:10:37 +0700
+  [1m[35m (8.6ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 63.6ms | Allocations: 1481)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 2.3ms | Allocations: 1224)
+  Rendered layout layouts/application.html.erb (Duration: 1094.5ms | Allocations: 25393)
+Completed 200 OK in 1179ms (Views: 1150.7ms | ActiveRecord: 0.0ms | Allocations: 28639)
+
+
+Started GET "/vi/static_pages/user" for 127.0.0.1 at 2021-09-10 00:10:53 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/vi/static_pages/user"):
+  
+Started GET "/" for 127.0.0.1 at 2021-09-10 00:10:58 +0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/hiep/.rvm/gems/ruby-3.0.0/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/hiep/.rvm/gems/ruby-3.0.0/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 25.3ms | Allocations: 222)
+Completed 200 OK in 38ms (Views: 27.0ms | ActiveRecord: 0.0ms | Allocations: 1093)
+
+
+Started GET "/users" for 127.0.0.1 at 2021-09-10 00:11:04 +0700
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/users/index.html.erb:19
+  Rendered users/index.html.erb within layouts/application (Duration: 72.3ms | Allocations: 7741)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 1.5ms | Allocations: 603)
+  Rendered layout layouts/application.html.erb (Duration: 117.5ms | Allocations: 19428)
+Completed 200 OK in 153ms (Views: 78.6ms | ActiveRecord: 46.9ms | Allocations: 22454)
+
+
+Started GET "/vi/users/2" for 127.0.0.1 at 2021-09-10 00:11:07 +0700
+Processing by UsersController#show as HTML
+  Parameters: {"locale"=>"vi", "id"=>"2"}
+  [1m[36mUser Load (43.9ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:62:in `set_user'
+  Rendering layout layouts/application.html.erb
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 1.1ms | Allocations: 398)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 1.0ms | Allocations: 371)
+  Rendered layout layouts/application.html.erb (Duration: 29.2ms | Allocations: 11205)
+Completed 200 OK in 124ms (Views: 30.4ms | ActiveRecord: 43.9ms | Allocations: 15822)
+
+
+Started GET "/users" for 127.0.0.1 at 2021-09-10 00:18:49 +0700
+  [1m[35m (2.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/users/index.html.erb:19
+  Rendered users/index.html.erb within layouts/application (Duration: 85.9ms | Allocations: 8025)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 5.5ms | Allocations: 2097)
+  Rendered layout layouts/application.html.erb (Duration: 208.8ms | Allocations: 32802)
+Completed 200 OK in 224ms (Views: 206.7ms | ActiveRecord: 6.8ms | Allocations: 36514)
+
+
+Started GET "/vi/users/new" for 127.0.0.1 at 2021-09-10 00:19:04 +0700
+Processing by UsersController#new as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 81.1ms | Allocations: 3466)
+  Rendered users/new.html.erb within layouts/application (Duration: 83.5ms | Allocations: 3843)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 1.2ms | Allocations: 358)
+  Rendered layout layouts/application.html.erb (Duration: 112.6ms | Allocations: 14684)
+Completed 200 OK in 119ms (Views: 114.7ms | ActiveRecord: 0.0ms | Allocations: 15338)
+
+
+Started GET "/vi/users/2" for 127.0.0.1 at 2021-09-10 00:19:08 +0700
+Processing by UsersController#show as HTML
+  Parameters: {"locale"=>"vi", "id"=>"2"}
+  [1m[36mUser Load (6.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:62:in `set_user'
+  Rendering layout layouts/application.html.erb
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 1.2ms | Allocations: 395)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 1.1ms | Allocations: 371)
+  Rendered layout layouts/application.html.erb (Duration: 30.7ms | Allocations: 11201)
+Completed 200 OK in 58ms (Views: 32.6ms | ActiveRecord: 6.4ms | Allocations: 15565)
+
+
+Started GET "/vi/users/3/edit" for 127.0.0.1 at 2021-09-10 00:19:11 +0700
+Processing by UsersController#edit as HTML
+  Parameters: {"locale"=>"vi", "id"=>"3"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:62:in `set_user'
+  Rendering layout layouts/application.html.erb
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 4.9ms | Allocations: 1461)
+  Rendered users/edit.html.erb within layouts/application (Duration: 9.4ms | Allocations: 1775)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 0.8ms | Allocations: 372)
+  Rendered layout layouts/application.html.erb (Duration: 39.2ms | Allocations: 13208)
+Completed 200 OK in 50ms (Views: 43.1ms | ActiveRecord: 0.7ms | Allocations: 14399)
+
+
+Started GET "/home" for 127.0.0.1 at 2021-09-10 00:19:33 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.1ms | Allocations: 291)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 1.2ms | Allocations: 436)
+  Rendered layout layouts/application.html.erb (Duration: 46.0ms | Allocations: 11292)
+Completed 200 OK in 52ms (Views: 51.2ms | ActiveRecord: 0.0ms | Allocations: 12376)
+
+
+Started GET "/home" for 127.0.0.1 at 2021-09-10 00:19:34 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 132)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 0.6ms | Allocations: 369)
+  Rendered layout layouts/application.html.erb (Duration: 21.7ms | Allocations: 10994)
+Completed 200 OK in 23ms (Views: 22.2ms | ActiveRecord: 0.0ms | Allocations: 11452)
+
+
+Started GET "/home" for 127.0.0.1 at 2021-09-10 00:19:38 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 132)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 5.6ms | Allocations: 369)
+  Rendered layout layouts/application.html.erb (Duration: 34.0ms | Allocations: 11571)
+Completed 200 OK in 41ms (Views: 34.9ms | ActiveRecord: 0.0ms | Allocations: 12032)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2021-09-10 00:19:51 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 132)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 1.1ms | Allocations: 371)
+  Rendered layout layouts/application.html.erb (Duration: 31.6ms | Allocations: 10998)
+Completed 200 OK in 35ms (Views: 32.8ms | ActiveRecord: 0.0ms | Allocations: 11461)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2021-09-10 00:21:41 +0700
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 4.2ms | Allocations: 1482)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 2.0ms | Allocations: 1225)
+  Rendered layout layouts/application.html.erb (Duration: 152.4ms | Allocations: 25390)
+Completed 200 OK in 169ms (Views: 157.9ms | ActiveRecord: 0.0ms | Allocations: 28638)
+
+
+Started GET "/users" for 127.0.0.1 at 2021-09-10 00:21:45 +0700
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/users/index.html.erb:19
+  Rendered users/index.html.erb within layouts/application (Duration: 221.1ms | Allocations: 7765)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 2.0ms | Allocations: 406)
+  Rendered layout layouts/application.html.erb (Duration: 250.4ms | Allocations: 18875)
+Completed 200 OK in 259ms (Views: 177.5ms | ActiveRecord: 78.9ms | Allocations: 20433)
+
+
+Started GET "/users" for 127.0.0.1 at 2021-09-10 00:21:46 +0700
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/users/index.html.erb:19
+  Rendered users/index.html.erb within layouts/application (Duration: 10.4ms | Allocations: 1770)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 0.7ms | Allocations: 359)
+  Rendered layout layouts/application.html.erb (Duration: 33.3ms | Allocations: 12754)
+Completed 200 OK in 36ms (Views: 34.6ms | ActiveRecord: 0.6ms | Allocations: 13239)
+
+
+Started GET "/vi/users/new" for 127.0.0.1 at 2021-09-10 00:21:55 +0700
+Processing by UsersController#new as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 10.5ms | Allocations: 2649)
+  Rendered users/new.html.erb within layouts/application (Duration: 11.8ms | Allocations: 3031)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 0.7ms | Allocations: 356)
+  Rendered layout layouts/application.html.erb (Duration: 31.2ms | Allocations: 14457)
+Completed 200 OK in 40ms (Views: 37.1ms | ActiveRecord: 0.0ms | Allocations: 15095)
+
+
+Started GET "/users" for 127.0.0.1 at 2021-09-10 00:22:03 +0700
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/users/index.html.erb:19
+  Rendered users/index.html.erb within layouts/application (Duration: 12.7ms | Allocations: 1770)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 0.8ms | Allocations: 359)
+  Rendered layout layouts/application.html.erb (Duration: 95.4ms | Allocations: 12624)
+Completed 200 OK in 97ms (Views: 95.7ms | ActiveRecord: 0.5ms | Allocations: 13109)
+
+
+Started GET "/users" for 127.0.0.1 at 2021-09-10 00:23:49 +0700
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 2255)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 2335)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.0ms | Allocations: 5189)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    16: #   </thead>
+    17: 
+    18: #   <tbody>
+    19: #     <% @users.each do |user| %>
+    20: #       <tr>
+    21: #         <td><%= user.name %></td>
+    22: #         <td><%= user.email %></td>
+  
+app/views/users/index.html.erb:19
+Started GET "/" for 127.0.0.1 at 2021-09-10 00:23:54 +0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/hiep/.rvm/gems/ruby-3.0.0/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/hiep/.rvm/gems/ruby-3.0.0/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 9.1ms | Allocations: 222)
+Completed 200 OK in 14ms (Views: 10.7ms | ActiveRecord: 0.0ms | Allocations: 1128)
+
+
+Started GET "/home" for 127.0.0.1 at 2021-09-10 00:24:00 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 8.8ms | Allocations: 2465)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 5.7ms | Allocations: 1205)
+  Rendered layout layouts/application.html.erb (Duration: 119.4ms | Allocations: 26316)
+Completed 200 OK in 123ms (Views: 121.5ms | ActiveRecord: 0.0ms | Allocations: 27576)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2021-09-10 00:24:06 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 132)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 0.8ms | Allocations: 371)
+  Rendered layout layouts/application.html.erb (Duration: 22.5ms | Allocations: 11000)
+Completed 200 OK in 27ms (Views: 25.6ms | ActiveRecord: 0.0ms | Allocations: 11459)
+
+
+Started GET "/static_pages/help" for 127.0.0.1 at 2021-09-10 00:24:11 +0700
+Processing by StaticPagesController#help as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 73.6ms | Allocations: 147)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 1.4ms | Allocations: 400)
+  Rendered layout layouts/application.html.erb (Duration: 107.6ms | Allocations: 11042)
+Completed 200 OK in 110ms (Views: 109.0ms | ActiveRecord: 0.0ms | Allocations: 11627)
+
+
+Started GET "/users" for 127.0.0.1 at 2021-09-10 10:26:55 +0700
+  [1m[35m (83.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (Duration: 45.6ms | Allocations: 2630)
+  Rendered layout layouts/application.html.erb (Duration: 46.1ms | Allocations: 2699)
+Completed 500 Internal Server Error in 127ms (ActiveRecord: 0.0ms | Allocations: 5922)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    16: #   </thead>
+    17: 
+    18: #   <tbody>
+    19: #     <% @users.each do |user| %>
+    20: #       <tr>
+    21: #         <td><%= user.name %></td>
+    22: #         <td><%= user.email %></td>
+  
+app/views/users/index.html.erb:19
+Started GET "/" for 127.0.0.1 at 2021-09-10 10:26:59 +0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/hiep/.rvm/gems/ruby-2.7.1/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/hiep/.rvm/gems/ruby-2.7.1/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 20.5ms | Allocations: 220)
+Completed 200 OK in 33ms (Views: 23.1ms | ActiveRecord: 0.0ms | Allocations: 980)
+
+
+Started GET "/home" for 127.0.0.1 at 2021-09-10 10:27:04 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 136.0ms | Allocations: 2757)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 17.5ms | Allocations: 1129)
+  Rendered layout layouts/application.html.erb (Duration: 2055.1ms | Allocations: 150460)
+Completed 200 OK in 2063ms (Views: 2060.6ms | ActiveRecord: 0.0ms | Allocations: 152127)
+
+
+Started GET "/users" for 127.0.0.1 at 2021-09-10 18:46:10 +0700
+  [1m[35m (38.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/users"):
+  
+Started GET "/" for 127.0.0.1 at 2021-09-10 18:46:17 +0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/hiep/.rvm/gems/ruby-2.7.1/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/hiep/.rvm/gems/ruby-2.7.1/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 24.6ms | Allocations: 221)
+Completed 200 OK in 70ms (Views: 27.5ms | ActiveRecord: 0.0ms | Allocations: 4369)
+
+
+Started GET "/home" for 127.0.0.1 at 2021-09-10 18:46:24 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 64.8ms | Allocations: 1416)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 11.1ms | Allocations: 1001)
+  Rendered layout layouts/application.html.erb (Duration: 702.1ms | Allocations: 24931)
+Completed 200 OK in 724ms (Views: 716.5ms | ActiveRecord: 0.0ms | Allocations: 28992)
+
+
+Started GET "/en/static_pages/home" for 127.0.0.1 at 2021-09-10 18:46:28 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 136)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 1.0ms | Allocations: 374)
+  Rendered layout layouts/application.html.erb (Duration: 27.8ms | Allocations: 12017)
+Completed 200 OK in 31ms (Views: 29.2ms | ActiveRecord: 0.0ms | Allocations: 12898)
+
+
+Started GET "/vi/static_pages/home" for 127.0.0.1 at 2021-09-10 18:46:29 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 132)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 0.9ms | Allocations: 373)
+  Rendered layout layouts/application.html.erb (Duration: 34.8ms | Allocations: 11899)
+Completed 200 OK in 36ms (Views: 35.5ms | ActiveRecord: 0.0ms | Allocations: 12292)
+
+
+Started GET "/vi/static_pages/home" for 127.0.0.1 at 2021-09-10 18:46:31 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 132)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 1.2ms | Allocations: 374)
+  Rendered layout layouts/application.html.erb (Duration: 21.5ms | Allocations: 11302)
+Completed 200 OK in 23ms (Views: 22.5ms | ActiveRecord: 0.0ms | Allocations: 11694)
+
+
+Started GET "/users" for 127.0.0.1 at 2021-09-12 16:31:27 +0700
+  [1m[35m (63.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/users"):
+  
+Started GET "/home" for 127.0.0.1 at 2021-09-12 16:31:34 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 87.5ms | Allocations: 1419)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 14.4ms | Allocations: 998)
+  Rendered layout layouts/application.html.erb (Duration: 814.5ms | Allocations: 24994)
+Completed 200 OK in 863ms (Views: 825.7ms | ActiveRecord: 0.0ms | Allocations: 26983)
+
+
+Started GET "/home" for 127.0.0.1 at 2021-09-12 16:31:35 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 132)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 2.8ms | Allocations: 375)
+  Rendered layout layouts/application.html.erb (Duration: 72.5ms | Allocations: 13985)
+Completed 200 OK in 74ms (Views: 73.9ms | ActiveRecord: 0.0ms | Allocations: 14331)
+
+
+Started GET "/home" for 127.0.0.1 at 2021-09-12 16:31:37 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 132)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 0.8ms | Allocations: 374)
+  Rendered layout layouts/application.html.erb (Duration: 25.3ms | Allocations: 11310)
+Completed 200 OK in 31ms (Views: 26.0ms | ActiveRecord: 0.0ms | Allocations: 11708)
+
+
+Started GET "/en/static_pages/home" for 127.0.0.1 at 2021-09-12 16:31:40 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 136)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 0.8ms | Allocations: 375)
+  Rendered layout layouts/application.html.erb (Duration: 35.8ms | Allocations: 12123)
+Completed 200 OK in 39ms (Views: 37.6ms | ActiveRecord: 0.0ms | Allocations: 13005)
+
+
+Started GET "/users" for 127.0.0.1 at 2021-09-12 16:48:41 +0700
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/users"):
+  
+Started GET "/home" for 127.0.0.1 at 2021-09-12 16:48:45 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 23.8ms | Allocations: 2677)
+  Rendered layout layouts/application.html.erb (Duration: 24.6ms | Allocations: 2743)
+Completed 500 Internal Server Error in 31ms (ActiveRecord: 0.0ms | Allocations: 4754)
+
+
+  
+ActionView::Template::Error (can not load translations from /home/hiep/Desktop/sampleapp/config/locales/vi.yml: #<Psych::SyntaxError: (<unknown>): could not find expected ':' while scanning a simple key at line 7 column 3>):
+    11:             <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+    12:             sample application.
+    13:         </h2>
+    14:         <%= link_to t(".sign_up"), "#", class: "btn btn-lg btn-primary" %>
+    15:     </div>
+    16: </body>
+    17: </html>
+  
+app/views/static_pages/home.html.erb:14
+Started GET "/home" for 127.0.0.1 at 2021-09-12 16:49:14 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 6.1ms | Allocations: 2468)
+  Rendered layout layouts/application.html.erb (Duration: 6.7ms | Allocations: 2532)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms | Allocations: 2899)
+
+
+  
+ActionView::Template::Error (can not load translations from /home/hiep/Desktop/sampleapp/config/locales/vi.yml: #<Psych::SyntaxError: (<unknown>): could not find expected ':' while scanning a simple key at line 7 column 3>):
+    11:             <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+    12:             sample application.
+    13:         </h2>
+    14:         <%= link_to t(".sign_up"), "#", class: "btn btn-lg btn-primary" %>
+    15:     </div>
+    16: </body>
+    17: </html>
+  
+app/views/static_pages/home.html.erb:14
+Started GET "/home" for 127.0.0.1 at 2021-09-12 16:50:05 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.4ms | Allocations: 2593)
+  Rendered layout layouts/application.html.erb (Duration: 2.8ms | Allocations: 2658)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 3746)
+
+
+  
+ActionView::Template::Error (can not load translations from /home/hiep/Desktop/sampleapp/config/locales/vi.yml: #<Psych::SyntaxError: (<unknown>): could not find expected ':' while scanning a simple key at line 7 column 3>):
+    11:             <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+    12:             sample application.
+    13:         </h2>
+    14:         # <%= link_to t(".sign_up"), "#", class: "btn btn-lg btn-primary" %>
+    15:     </div>
+    16: </body>
+    17: </html>
+  
+app/views/static_pages/home.html.erb:14
+Started GET "/home" for 127.0.0.1 at 2021-09-12 16:50:14 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 141)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 11.5ms | Allocations: 2705)
+  Rendered layout layouts/application.html.erb (Duration: 483.5ms | Allocations: 25406)
+Completed 500 Internal Server Error in 500ms (ActiveRecord: 0.0ms | Allocations: 26494)
+
+
+  
+ActionView::Template::Error (can not load translations from /home/hiep/Desktop/sampleapp/config/locales/vi.yml: #<Psych::SyntaxError: (<unknown>): could not find expected ':' while scanning a simple key at line 7 column 3>):
+    3:         <%= link_to "sample app", "#", id: "logo" %>
+    4:         <nav>
+    5:             <ul class="nav navbar-nav navbar-right">
+    6:                 <li><%= link_to t(".home"), "#" %></li>
+    7:                 <li><%= link_to t(".help"), "#" %></li>
+    8:                 <li><%= link_to t(".login"), "#" %></li>
+    9:                 <li>
+  
+app/views/shared/_header.html.erb:6
+app/views/layouts/application.html.erb:17
+Started GET "/home" for 127.0.0.1 at 2021-09-12 16:51:02 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 6.7ms | Allocations: 2570)
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 2635)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms | Allocations: 3775)
+
+
+  
+ActionView::Template::Error (can not load translations from /home/hiep/Desktop/sampleapp/config/locales/vi.yml: #<Psych::SyntaxError: (<unknown>): could not find expected ':' while scanning a simple key at line 7 column 3>):
+    11:             <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+    12:             sample application.
+    13:         </h2>
+    14:         <%= link_to t(".sign_up"), "#", class: "btn btn-lg btn-primary" %>
+    15:     </div>
+    16: </body>
+    17: </html>
+  
+app/views/static_pages/home.html.erb:14
+Started GET "/home" for 127.0.0.1 at 2021-09-12 16:51:50 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 39.9ms | Allocations: 1239)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 1.8ms | Allocations: 984)
+  Rendered layout layouts/application.html.erb (Duration: 67.2ms | Allocations: 13491)
+Completed 200 OK in 71ms (Views: 69.7ms | ActiveRecord: 0.0ms | Allocations: 14069)
+
+
+Started GET "/home" for 127.0.0.1 at 2021-09-12 16:53:14 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 10.0ms | Allocations: 1118)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 1.0ms | Allocations: 750)
+  Rendered layout layouts/application.html.erb (Duration: 45.6ms | Allocations: 12647)
+Completed 200 OK in 51ms (Views: 49.1ms | ActiveRecord: 0.0ms | Allocations: 13215)
+
+
+Started GET "/help" for 127.0.0.1 at 2021-09-12 16:53:24 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/help"):
+  
+Started GET "/help" for 127.0.0.1 at 2021-09-12 16:53:59 +0700
+Processing by StaticPagesController#help as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 6.5ms | Allocations: 144)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 6.4ms | Allocations: 756)
+  Rendered layout layouts/application.html.erb (Duration: 54.9ms | Allocations: 11790)
+Completed 200 OK in 60ms (Views: 58.2ms | ActiveRecord: 0.0ms | Allocations: 12478)
+
+
+Started GET "/help" for 127.0.0.1 at 2021-09-12 16:54:07 +0700
+Processing by StaticPagesController#help as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.2ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 1.5ms | Allocations: 374)
+  Rendered layout layouts/application.html.erb (Duration: 51.8ms | Allocations: 11210)
+Completed 200 OK in 55ms (Views: 54.0ms | ActiveRecord: 0.0ms | Allocations: 11602)
+
+
+Started GET "/help" for 127.0.0.1 at 2021-09-12 16:54:12 +0700
+Processing by StaticPagesController#help as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.1ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 0.8ms | Allocations: 374)
+  Rendered layout layouts/application.html.erb (Duration: 46.5ms | Allocations: 11209)
+Completed 200 OK in 50ms (Views: 47.3ms | ActiveRecord: 0.0ms | Allocations: 11600)
+
+
+Started GET "/help" for 127.0.0.1 at 2021-09-12 16:55:14 +0700
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by StaticPagesController#help as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.9ms | Allocations: 259)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 5.3ms | Allocations: 3036)
+  Rendered layout layouts/application.html.erb (Duration: 71.1ms | Allocations: 25852)
+Completed 500 Internal Server Error in 89ms (ActiveRecord: 0.0ms | Allocations: 28470)
+
+
+  
+ActionView::Template::Error (can not load translations from /home/hiep/Desktop/sampleapp/config/locales/en.yml: #<Psych::SyntaxError: (<unknown>): could not find expected ':' while scanning a simple key at line 7 column 3>):
+    3:         <%= link_to "sample app", "#", id: "logo" %>
+    4:         <nav>
+    5:             <ul class="nav navbar-nav navbar-right">
+    6:                 <li><%= link_to t(".home"), "#" %></li>
+    7:                 <li><%= link_to t(".help"), "#" %></li>
+    8:                 <li><%= link_to t(".login"), "#" %></li>
+    9:                 <li>
+  
+app/views/shared/_header.html.erb:6
+app/views/layouts/application.html.erb:17
+Started GET "/help" for 127.0.0.1 at 2021-09-12 16:55:45 +0700
+  [1m[35m (3.1ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by StaticPagesController#help as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.8ms | Allocations: 259)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 5.3ms | Allocations: 2291)
+  Rendered layout layouts/application.html.erb (Duration: 72.4ms | Allocations: 25109)
+Completed 200 OK in 86ms (Views: 75.2ms | ActiveRecord: 0.0ms | Allocations: 27758)
+
+
+Started GET "/home" for 127.0.0.1 at 2021-09-12 16:55:49 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 272)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 0.9ms | Allocations: 429)
+  Rendered layout layouts/application.html.erb (Duration: 43.6ms | Allocations: 11502)
+Completed 200 OK in 45ms (Views: 44.2ms | ActiveRecord: 0.0ms | Allocations: 12027)
+
+
+Started GET "/home" for 127.0.0.1 at 2021-09-12 16:55:51 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 132)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 1.2ms | Allocations: 375)
+  Rendered layout layouts/application.html.erb (Duration: 27.7ms | Allocations: 11305)
+Completed 200 OK in 34ms (Views: 33.2ms | ActiveRecord: 0.0ms | Allocations: 11703)
+
+
+Started GET "/home" for 127.0.0.1 at 2021-09-12 16:55:53 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 132)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 0.9ms | Allocations: 373)
+  Rendered layout layouts/application.html.erb (Duration: 33.3ms | Allocations: 11896)
+Completed 200 OK in 35ms (Views: 33.9ms | ActiveRecord: 0.0ms | Allocations: 12290)
+
+
+Started GET "/users" for 127.0.0.1 at 2021-09-13 08:55:41 +0700
+  [1m[35m (62.1ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/users"):
+  
+Started GET "/" for 127.0.0.1 at 2021-09-13 08:56:22 +0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/hiep/.rvm/gems/ruby-2.7.1/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/hiep/.rvm/gems/ruby-2.7.1/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 24.8ms | Allocations: 242)
+Completed 200 OK in 53ms (Views: 26.5ms | ActiveRecord: 0.0ms | Allocations: 1773)
+
+
+Started GET "/home" for 127.0.0.1 at 2021-09-13 08:56:28 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 59.9ms | Allocations: 2638)
+  Rendered layout layouts/application.html.erb (Duration: 60.3ms | Allocations: 2703)
+Completed 500 Internal Server Error in 87ms (ActiveRecord: 0.0ms | Allocations: 4421)
+
+
+  
+ActionView::Template::Error (can not load translations from /home/hiep/Desktop/sampleapp/config/locales/en.yml: #<Psych::SyntaxError: (<unknown>): could not find expected ':' while scanning a simple key at line 7 column 1>):
+    11:             <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+    12:             sample application.
+    13:         </h2>
+    14:         <%= link_to t(".sign_up"), "#", class: "btn btn-lg btn-primary" %>
+    15:     </div>
+    16: </body>
+    17: </html>
+  
+app/views/static_pages/home.html.erb:14
+Started GET "/home" for 127.0.0.1 at 2021-09-13 08:58:33 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 12.1ms | Allocations: 2366)
+  Rendered layout layouts/application.html.erb (Duration: 23.4ms | Allocations: 2430)
+Completed 500 Internal Server Error in 29ms (ActiveRecord: 0.0ms | Allocations: 2921)
+
+
+  
+ActionView::Template::Error (can not load translations from /home/hiep/Desktop/sampleapp/config/locales/en.yml: #<Psych::SyntaxError: (<unknown>): could not find expected ':' while scanning a simple key at line 7 column 1>):
+    11:             <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+    12:             sample application.
+    13:         </h2>
+    14:         <%= link_to t(".sign_up"), "#", class: "btn btn-lg btn-primary" %>
+    15:     </div>
+    16: </body>
+    17: </html>
+  
+app/views/static_pages/home.html.erb:14
