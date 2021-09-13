@@ -1,4 +1,6 @@
 vi:
   shared:
     header:
-      login: "Dang nhap
+      login: "Dang nhap"
+      home: "Trang chu"
+      help: "Giup do"
