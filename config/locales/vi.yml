@@ -1,0 +1,6 @@
+vi:
+  shared:
+    header:
+      login: "Dang nhap"
+      home: "Trang chu"
+      help: "Giup do"
