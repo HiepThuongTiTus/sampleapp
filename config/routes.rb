@@ -1,17 +1,9 @@
 Rails.application.routes.draw do
-  get 'static_pages/home'
-  get 'static_pages/help'
-  # resources : static_pages,only: [:home, :help] do
-  #   collection do 
-  #     get :home
-  #     get :help
-  #     post :search
-  #   end
-  # end
-
+  scope "(:locale)", locale: /en|vi/ do
+  get "static_pages/home"
+  get "static_pages/help"
   get "/home", to: "static_pages#home"
-
-  resources :posts
-  resources :users
+  get "/help", to: "static_pages#help"
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  end
 end
