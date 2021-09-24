@@ -10,7 +10,9 @@ module ProjectNew
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 6.1
-
+    Bundler.require(*Rails.groups)
+    Config::Integration::Rails::Railtie.preload
+    config.time_zone = Settings.time_zone
     # Configuration for the application, engines, and railties goes here.
     #
     # These settings can be overridden in specific environments using the files

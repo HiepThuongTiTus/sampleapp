@@ -1,0 +1,4 @@
+validations:
+  digist_255: 255
+  digist_6: 6
+  digist_150: 150
